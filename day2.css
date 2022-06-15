@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(D-house.jpg);
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(220, 220, 220, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.container input{
+    display: block;
+    width: 100%;
+    background: rgba(240, 240, 240, 0.5);
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 40px;
+    color: #555;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.container button{
+    display: block;
+    width: 100%;
+    background: rgb(18, 15, 194);
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 40px;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.container button:hover{
+    opacity: .8;
+}
+
+.container img{
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+    opacity: .7;
+    border-radius: 50% 50%;
+}
