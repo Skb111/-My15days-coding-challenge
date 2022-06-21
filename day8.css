@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(D-house.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid black;
+    text-align: center;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+span{
+    font-size: 2rem;
+    color: aliceblue;
+}
+button{
+    background: black;
+    color: white;
+    padding: 1rem 2rem;
+    margin: .5rem;
+    border-radius: 25px;
+    width: 100px;
+}
+button:hover{
+    background: yellow;
+    color: black;
+    
+}

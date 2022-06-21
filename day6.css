@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: green;
+}
+.wrap{
+    width: 400px;
+    margin: 100px auto;
+    height: auto;
+    background: black;
+    padding: 15px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px ;
+    border-radius: 5px;
+    text-align: right;
+    pointer-events: none;
+}
+input[type=button]{
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#clr{
+    width: 100%;
+    background: red;
+}
+.equal{
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: green;
+}
