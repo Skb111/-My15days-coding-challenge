@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background: linear-gradient(black, pink);
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter{
+    width: 400px;
+    border: 1px solid red;
+    padding: 1rem;
+    background: linear-gradient(grey, blue);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+h1{
+    font: size 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.counter > *{
+    margin-bottom: 2rem;
+
+}
+.count{
+    font-size: 5rem;
+}
+.buttons button{
+    padding: 1rem;
+    margin: 0 .2rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: rgb(46, 214, 130);
+    cursor: pointer;
+}
+button.subtract{
+    color: red;
+}
+button.reset{
+    color: skyblue;
+}
+button.addition{
+    color: green;
+}
